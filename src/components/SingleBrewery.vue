@@ -56,21 +56,27 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 h2 {
   text-align: start;
   margin-left: 40px;
 }
-li {
-  color: black;
-  background-color: #fdf2e9;
-  padding: 4.8rem 0 9.6rem 0;
-  max-width: 130rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
-  gap: 2rem;
-  align-items: center;
+ul {
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
+  li {
+    color: black;
+    background-color: #fdf2e9;
+    padding: 4.8rem 0 9.6rem 0;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 2rem;
+    align-items: center;
+  }
 }
 </style>
