@@ -3,14 +3,18 @@ $body-color: #ffffff;
 
 $theme-colors: (
   "primary": #fdf2e9,
-  "secondary": #2121c6,
+  "secondary": #000000,
   "success": #577717,
-  "info": #c4bfe4,
+  "info": #ffffff,
   "warning": #ffec20,
   "danger": #630c0c,
   "light": #c8c8c8,
   "dark": #500000,
   "custom-color": #5bccf6,
 );
+
+@function theme-color($key) {
+  @return map-get($theme-colors, $key);
+}
 
 @import "bootstrap/scss/bootstrap";

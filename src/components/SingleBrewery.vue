@@ -57,18 +57,19 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import "../../assets/main.scss";
 h2 {
   text-align: start;
   margin-left: 40px;
 }
 ul {
   font-weight: 100;
-  color: rgb(255, 255, 255);
+  color: theme-color(info);
   list-style: none;
   text-decoration: none;
   li {
-    color: black;
-    background-color: #fdf2e9;
+    color: theme-color(secondary);
+    background-color: theme-color(primary);
     padding: 4.8rem 0 9.6rem 0;
     max-width: 130rem;
     margin: 0 auto;
